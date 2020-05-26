@@ -1,0 +1,25 @@
+.manager {
+  position: relative;
+  padding-bottom: 70px;
+  background: #ccc url("../img/manager-bg.jpg") no-repeat center/cover;
+  color: #fff;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(#000, 0.5);
+    z-index: -0;
+  }
+}
+.manager__img-icon {
+  background-image: url("../spritePng/sprite.png");
+  background-position: -58px -253px;
+  width: 53px;
+  height: 53px;
+  &:hover {
+    opacity: 0.8;
+  }
+}

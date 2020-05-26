@@ -1,0 +1,36 @@
+.answer-form {
+  padding: 16px 40px 24px;
+  background-color: rgba(#fff, 0.7);
+}
+.answer-form__item {
+  padding-right: 5px !important;
+  margin-bottom: 7px;
+  &:last-child {
+    margin-right: 0;
+  }
+  @include tablets {
+    text-align: center;
+  }
+}
+.answer-form__input {
+  border: 1px solid rgba(#000, 0.4);
+  @include tablets {
+    width: 85%;
+  }
+}
+.answer-form__textarea {
+  border-radius: 9px;
+  resize: none;
+  min-height: 71px;
+  @include tablets {
+    width: 85%;
+  }
+}
+.answer-form__wrap {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+}
+.answer-form__btn {
+  width: 180px;
+}

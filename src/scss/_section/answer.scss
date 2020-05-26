@@ -1,0 +1,32 @@
+.answer {
+  position: relative;
+  background: #ccc url("../img/answer-bg.jpg") no-repeat/cover;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(#000, 0.7);
+  }
+}
+.answer__inner-wrap {
+  z-index: 15;
+}
+.answer__top {
+  padding: 12px 0;
+  background-color: $darkBlack;
+  text-align: center;
+  color: #fff;
+}
+.answer__title {
+  font-size: 19px;
+  line-height: 23px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.answer__text {
+  font-weight: 400;
+  text-transform: uppercase;
+}

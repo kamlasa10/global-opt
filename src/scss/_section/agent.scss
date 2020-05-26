@@ -1,0 +1,62 @@
+.agent {
+  position: relative;
+  padding-bottom: 70px;
+  background: #ccc url("../img/aggent-bg.jpg") no-repeat center/cover;
+  color: #fff;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(#000, 0.3);
+  }
+}
+
+.agent__wrap,
+.manager__wrap {
+  z-index: 2;
+  text-align: center;
+}
+.agent__img,
+.manager__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  width: 102px;
+  height: 102px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  &-icon {
+    background-image: url("../spritePng/sprite.png");
+    background-position: -331px -55px;
+    width: 48px;
+    height: 51px;
+  }
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.agent__img-icon {
+  background-image: url("../spritePng/sprite.png");
+  background-position: -331px -55px;
+  width: 48px;
+  height: 51px;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.agent__heading,
+.manager__heading {
+  margin-bottom: 20px;
+  color: #fff;
+  text-transform: none;
+}
+.agent__desc,
+.manager__desc {
+  font-size: 19px;
+  line-height: 27px;
+}

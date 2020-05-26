@@ -1,0 +1,36 @@
+.header {
+  position: relative;
+  padding-top: 20px;
+  margin-bottom: 45px;
+}
+.header__contact {
+  color: #fff;
+  @media (max-width: 1200px) {
+    text-align: right;
+  }
+  @include laptop {
+    text-align: left;
+  }
+}
+.header__text {
+  text-align: right;
+  @include laptop {
+    margin-top: 10px;
+    text-align: left;
+  }
+}
+.header__phone {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #fff;
+  &:hover {
+    color: $orange;
+    border-bottom: 1px solid $orange;
+  }
+}
+.header__btn {
+  @media (max-width: 1200px) {
+    margin-top: 10px;
+  }
+}

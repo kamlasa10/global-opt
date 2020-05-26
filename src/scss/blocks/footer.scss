@@ -1,0 +1,77 @@
+.footer {
+  padding-top: 24px;
+  padding-bottom: 35px;
+  background-color: $darkBlack;
+}
+.footer__top {
+  color: #fff;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(#fff, 0.3);
+}
+.footer__desc {
+  @media (max-width: 576px) {
+    margin-bottom: 10px;
+  }
+}
+.footer__creator {
+  @media (max-width: 575px) {
+    margin-top: 10px;
+    text-align: left;
+  }
+}
+.footer__contact {
+  @include laptop {
+    text-align: right;
+  }
+  @media (max-width: 575px) {
+    text-align: left;
+  }
+}
+.footer__copyright {
+  font-size: 13px;
+  line-height: 17px;
+  color: rgba(#fff, 0.6);
+  @media (max-width: 575px) {
+    text-align: left;
+  }
+}
+.footer__text {
+  font-size: 13px;
+  line-height: 17px;
+  color: rgba(#fff, 0.6);
+  &--center {
+    text-align: center;
+    @media (max-width: 575px) {
+      text-align: left;
+    }
+  }
+  @include laptop {
+    text-align: right;
+  }
+  @media (max-width: 575px) {
+    text-align: left;
+  }
+}
+.footer__link {
+  font-size: 13px;
+  line-height: 17px;
+  border-bottom: 1px solid $orange;
+  color: $orange;
+}
+.footer__img {
+  background-image: url("../spritePng/sprite.png");
+  background-position: -331px -111px;
+  width: 30px;
+  height: 32px;
+}
+.footer__logo {
+  @include tablets {
+    margin-bottom: 15px;
+  }
+}
+.footer__btn {
+  @include larger-phone {
+    margin-top: 10px;
+  }
+}

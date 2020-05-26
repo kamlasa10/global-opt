@@ -1,0 +1,76 @@
+.consultation {
+  padding-bottom: 85px;
+}
+.consultation__heading {
+  margin-bottom: 75px;
+  text-transform: none;
+}
+.consultation__form {
+  min-height: 166px;
+  padding-top: 61px;
+  border: 1px solid #898989;
+  @include tablets {
+    padding-left: 20px;
+  }
+}
+.consultation__wrap {
+  position: relative;
+}
+.consultation__item {
+  margin-right: 5px;
+}
+.consultation__input {
+  @include tablets {
+    margin-bottom: 8px;
+    width: 90%;
+  }
+}
+.consultation__block--top {
+  position: absolute;
+  top: -120px;
+  left: 50%;
+  margin-left: -52px;
+  padding: 0 10px;
+  background-color: #fff;
+  @include tablets {
+    margin-left: -65px;
+  }
+}
+.consultation__block--bottom {
+  position: absolute;
+  bottom: -80px;
+  left: 50%;
+  margin-left: -90px;
+  padding: 0 10px;
+  background-color: #fff;
+  @include tablets {
+    position: static;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-left: 0;
+  }
+  @include phones {
+    justify-content: flex-start;
+  }
+}
+.consultation__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 102px;
+  height: 102px;
+  border: 1px solid #e93b3b;
+  z-index: 10;
+  border-radius: 50%;
+  &-icon {
+    background-image: url("../spritePng/sprite.png");
+    background-position: -135px 0px;
+    width: 59px;
+    height: 61px;
+  }
+}
+.consultation__btn {
+  padding: 12px 0;
+  width: 180px;
+}

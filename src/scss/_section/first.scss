@@ -1,0 +1,15 @@
+.main {
+  position: relative;
+  z-index: 2;
+  background: $darkBlack url("../img/main-bg.jpg") no-repeat center/cover;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(#2e2e2e, 0.7);
+    z-index: -1;
+  }
+}

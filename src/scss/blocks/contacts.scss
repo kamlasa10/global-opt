@@ -1,0 +1,30 @@
+.contacts {
+  position: absolute;
+  top: 30%;
+  right: 20%;
+  width: 330px;
+  padding: 24px 50px;
+  background-color: #fff;
+  z-index: 10;
+  border-radius: 6px;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 59px;
+    left: -40px;
+    border: 20px solid transparent; border-right: 20px solid #fff;
+  }
+}
+.contacts__city {
+  font-size: 16px;
+  font-weight: 700;
+  color: $orange;
+}
+.contacts__email,
+.footer__link{
+  color: $orange;
+  &:hover {
+    color: darken($orange, 10%);
+    border-bottom: 1px solid $orange;
+  }
+}

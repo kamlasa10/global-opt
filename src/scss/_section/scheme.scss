@@ -1,0 +1,54 @@
+.scheme {
+  background-color: #f3f3f3;
+}
+.scheme__block {
+  margin-bottom: 35px;
+}
+.scheme__item {
+  text-align: center;
+}
+.scheme__img {
+  margin: 0 auto;
+  margin-bottom: 8px;
+  background-image: url("../spritePng/sprite.png");
+  &--1 {
+    background-position: -229px -253px;
+    width: 50px;
+    height: 49px;
+  }
+  &--2 {
+    background-position: -265px -171px;
+    width: 51px;
+    height: 57px;
+  }
+  &--3 {
+    background-position: -331px 0px;
+    width: 49px;
+    height: 50px;
+  }
+  &--4 {
+    background-position: -265px -55px;
+    width: 56px;
+    height: 54px;
+  }
+  &--5 {
+    background-position: -265px 0px;
+    width: 61px;
+    height: 50px;
+  }
+  &--6 {
+    background-position: -265px -114px;
+    width: 56px;
+    height: 52px;
+  }
+  &--7 {
+    background-position: -174px -253px;
+    width: 50px;
+    height: 50px;
+  }
+}
+.scheme__title {
+  font-size: 16px;
+  font-weight: 700;
+  color: $orange;
+}
